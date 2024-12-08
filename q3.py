@@ -1,11 +1,3 @@
-"""
-    Busca linear em uma lista de contatos para encontrar o número de telefone de um nome específico.
-    
-    @param nome: Nome do contato a ser buscado.
-    @param contatos: Lista de contatos, onde cada contato é um dicionário com 'nome' e 'telefone'.
-
-    @return: Número de telefone do contato ou uma mensagem de erro se o contato não for encontrado.
-"""
 def buscar_contato(nome, contatos):
     for contato in contatos:
         if contato['nome'].lower() == nome.lower():
